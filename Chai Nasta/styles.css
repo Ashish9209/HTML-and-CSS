@@ -1,0 +1,127 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    color: seashell;
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    z-index: 100;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 69px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: seashell;
+    font-size: 22px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.fixed-background {
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 200px 0;
+    color: seashell;
+}
+
+.fixed-background h2 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.fixed-background h4 {
+    font-size: 20px;
+    margin: 20px 0 0;
+}
+
+/* Featured Tea Section */
+#featured-tea {
+    padding: 100px 50px;
+    text-align: center;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.tea-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.tea-item {
+    width: 200px;
+    margin: 10px 0;
+}
+
+.tea-item img {
+    width: 100%;
+    height: auto;
+}
+
+.tea-item h3 {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+/* Locations Section */
+#locations {
+    background-image: url('images/locations.jpg');
+    background-size: cover;
+    text-align: center;
+    color: seashell;
+    padding: 200px 50px;
+}
+
+.locations-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.location {
+    background-color: black;
+    padding: 40px;
+    width: 300px;
+    opacity: 0.9;
+}
+
+.location h3 {
+    font-size: 15px;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 12px;
+}
